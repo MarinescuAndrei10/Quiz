@@ -8,7 +8,7 @@ Exemplu de intrebare:
 
 
 
-How to switch user on linux?
+How to switch user on linux?```
 *su
 *switch
 *login
@@ -22,9 +22,10 @@ Sumbit
 -pentru fiecare raspuns daca e corect sau nu
 
 
-Notiuni de studiat:
-1.HTML forms:ce se intampla cand se apasa submit
-2.Initialializare proiect flask 
-3.Flask tamplates
-4.Flask user sesions
-5.Citirea unui fisier json in python
+## Notiuni de studiat:
+
+1. HTML forms:ce se intampla cand se apasa submit
+2. Initialializare proiect flask 
+3. Flask tamplates
+4. Flask user sesions
+5. Citirea unui fisier json in python
