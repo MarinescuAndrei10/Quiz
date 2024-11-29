@@ -26,6 +26,6 @@ Sumbit
 
 1. HTML forms:ce se intampla cand se apasa submit
 2. Initialializare proiect flask 
-3. Flask tamplates
+3. Flask templates
 4. Flask user sesions
 5. Citirea unui fisier json in python

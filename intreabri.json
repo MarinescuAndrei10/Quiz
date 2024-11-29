@@ -1,0 +1,45 @@
+{
+    "quiz": [
+      {
+        "question": "How to switch user on linux?",
+        "answers": [
+          { "text": "su", "isCorrect": true },
+          { "text": "switch", "isCorrect": false },
+          { "text": "login", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "How do you display the content of a text file in the terminal?",
+        "answers": [
+          { "text": "cat", "isCorrect": true },
+          { "text": "show", "isCorrect": false },
+          { "text": "open", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "What does the 'chmod' command do?",
+        "answers": [
+          { "text": "Changes file permissions", "isCorrect": true },
+          { "text": "Displays the manual for a command", "isCorrect": false },
+          { "text": "Change the location of a file", "isCorrect": false }
+        ]
+      },
+      {
+        "question": "Which command is used to search for a specific string in a file?",
+      "answers": [
+        { "text": "grep", "isCorrect": true },
+        { "text": "find", "isCorrect": false },
+        { "text": "locate", "isCorrect": false }
+      ]
+      },
+      {
+        "question": "What does the 'alias' command do?",
+        "answers": [
+          { "text": "Creates a shortcut for a command", "isCorrect": true },
+          { "text": "Displays the network configuration", "isCorrect": false },
+          { "text": "Shows a list of processes", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+  
