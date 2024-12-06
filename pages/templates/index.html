@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Quiz</title>
+    <link rel="stylesheet" href="/pages/static/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Pagina mea web</h1>
+        <nav>
+            <ul>
+                <li><a  href="#intrebari">Intrebari</a></li>
+                <li><a  href="#scor">Scor</a></li>
+                <li><a  href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <a href="question.html" class="start-button">Start Quiz</a>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Pagina mea web. Toate drepturile rezervate.</p>
+            <ul class="footer-links">
+                <li><a href="#intrebari">Intrebari</a></li>
+                <li><a href="#scor">Scor</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('startQuizButton').addEventListener('click', function () {
+            fetch('/api/quiz')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.quiz.length > 0) {
+                        window.location.href = `/question?id=0`;
+                    } else {
+                        alert("Nu există întrebări disponibile!");
+                    }
+                })
+                .catch(error => {
+                    console.error("Eroare la încărcarea quiz-ului:", error);
+                    alert("A apărut o problemă. Încearcă din nou mai târziu.");
+                });
+        });
+    </script>
+    
+</body>
+</html>
