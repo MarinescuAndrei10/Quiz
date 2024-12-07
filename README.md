@@ -9,9 +9,30 @@
 ### pas 2
 
 - [ ] fcuntie pentru citire json 
-- [ ] add header si footer to index
-- [ ] initializare proiect flask
+- [x] add header si footer to index
+- [ ] add header si footer si pe question
 - [ ] creare ruta de index cu GET
+ 
+### pas 2.1:init flask
+
+<https://flask.palletsprojects.com/en/stable/tutorial/factory/>
+- [ ] structura de directoare ca in tutorial
+    - consolidare styles intr-un singur fisier in flaskr/static
+    - directoare si fisere din radacina:flaskr, .venv, .gitingnore, README, learning
+- [ ] __init__ py (contine create_app)
+    - verificare pronire aplicatie cu `flask --app flaskr run --debug`
+- [ ] cream un fisier de citire json (data.py)
+    - citire json din init.py
+
+## templates 
+
+- creare base
+- creare index
+- creare question
+
+## install project 
+
+<https://flask.palletsprojects.com/en/stable/tutorial/install/>
 
 
 ### pas 3
